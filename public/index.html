@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">   
+    <title>Netflix 2.0</title>
+</head>
+<body>
+    <header>
+        <h1 onclick="renderPage(1)">JomppFlix</h1>
+        <h2>Veja quais são os filmes mais populares do momento pra você assistir com seu mozão</h2>
+    </header>
+    <main>
+        <section id="movies-area" class="movies-area">
+                              
+        </section>
+        <div class="change-pag-box">
+            <button id="left-arrow"><i class="arrow left"></i></button>
+            <button id="rigth-arrow"><i class="arrow right"></i></button>
+            <input id="page-input" type="text" inputmode="numeric" placeholder="Pág.">
+        </div>
+        <section class="movie-modal">
+        </section>
+    </main>
+    <script src="script.js"></script>   
+</body>
+</html>
